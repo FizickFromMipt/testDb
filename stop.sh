@@ -1,0 +1,2 @@
+CONTAINER_NAME=test_db
+docker stop $CONTAINER_NAME

@@ -1,0 +1,10 @@
+databaseChangeLog:
+  - changeSet:
+      id: 1
+      author: AlexPevnenko
+      changes:
+        - sqlFile:
+            path: db/changelog/data/insert_test_data.sql
+            encoding: UTF-8
+            splitStatements: true
+            endDelimiter: ";"
